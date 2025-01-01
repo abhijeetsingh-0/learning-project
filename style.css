@@ -35,7 +35,7 @@ nav{
     gap: 5vw;
     justify-content: center;
     align-items: center;
-    background-color: #0f1928;
+    background-color: #1D2938;
 }
 
 .title{
@@ -54,4 +54,14 @@ nav{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+footer{
+    background-color: #1D2938;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    height: 5vh;
+    color: #98A2B3;
 }

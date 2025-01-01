@@ -1,4 +1,5 @@
 const main = document.querySelector(".main")
+const year = document.querySelector("#year")
 
 const box = document.createElement('div')
 box.classList.add('box')
@@ -12,3 +13,5 @@ box.addEventListener('click', () => {
         box.style.backgroundColor = 'green'
     }
 })
+
+year.textContent = new Date().getFullYear()
