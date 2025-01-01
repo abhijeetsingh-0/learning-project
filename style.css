@@ -9,6 +9,8 @@ body {
     height: 100%;
     width: 100%;
     color: white;
+    font-family: "Inter", serif;
+    font-weight: 400;
 }
 
 nav{
